@@ -14,6 +14,8 @@
 		90FFE77A29483B1500DC6587 /* SwiftTicTacToe_LN2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFE77929483B1500DC6587 /* SwiftTicTacToe_LN2Tests.swift */; };
 		90FFE78429483B1500DC6587 /* SwiftTicTacToe_LN2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFE78329483B1500DC6587 /* SwiftTicTacToe_LN2UITests.swift */; };
 		90FFE78629483B1500DC6587 /* SwiftTicTacToe_LN2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFE78529483B1500DC6587 /* SwiftTicTacToe_LN2UITestsLaunchTests.swift */; };
+		90FFE79529483EC200DC6587 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFE79429483EC200DC6587 /* GameState.swift */; };
+		90FFE79729483F4800DC6587 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FFE79629483F4800DC6587 /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		90FFE77F29483B1500DC6587 /* SwiftTicTacToe-LN2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftTicTacToe-LN2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FFE78329483B1500DC6587 /* SwiftTicTacToe_LN2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTicTacToe_LN2UITests.swift; sourceTree = "<group>"; };
 		90FFE78529483B1500DC6587 /* SwiftTicTacToe_LN2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTicTacToe_LN2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		90FFE79429483EC200DC6587 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		90FFE79629483F4800DC6587 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 		90FFE75B29483B1400DC6587 = {
 			isa = PBXGroup;
 			children = (
+				90FFE79629483F4800DC6587 /* Cell.swift */,
+				90FFE79429483EC200DC6587 /* GameState.swift */,
 				90FFE76629483B1400DC6587 /* SwiftTicTacToe-LN2 */,
 				90FFE77829483B1500DC6587 /* SwiftTicTacToe-LN2Tests */,
 				90FFE78229483B1500DC6587 /* SwiftTicTacToe-LN2UITests */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				90FFE76A29483B1400DC6587 /* ContentView.swift in Sources */,
+				90FFE79729483F4800DC6587 /* Cell.swift in Sources */,
+				90FFE79529483EC200DC6587 /* GameState.swift in Sources */,
 				90FFE76829483B1400DC6587 /* SwiftTicTacToe_LN2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
